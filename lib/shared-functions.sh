@@ -81,7 +81,7 @@ function set_server_pro_image_name() {
   if [[ -n ${OVERLEAF_IMAGE_NAME:-} ]]; then
     image_name="$OVERLEAF_IMAGE_NAME"
   elif [[ $SERVER_PRO == "true" ]]; then
-    image_name="quay.io/sharelatex/sharelatex-pro"
+    image_name="ghcr.io/ayaka-notes/overleaf-pro"
   else
     image_name="sharelatex/sharelatex"
   fi
