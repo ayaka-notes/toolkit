@@ -31,9 +31,9 @@ function __main__() {
     echo "---- Community Edition Images ----"
     docker images sharelatex/sharelatex
     echo "---- Server Pro Images ----"
-    docker images quay.io/sharelatex/sharelatex-pro
+    docker images ghcr.io/ayaka-notes/overleaf-pro
     echo "---- TexLive Images ----"
-    docker images quay.io/sharelatex/texlive-full
+    docker images ghcr.io/ayaka-notes/texlive-full
     echo "---- Git Bridge Images ----"
     docker images quay.io/sharelatex/git-bridge
 }
