@@ -94,7 +94,7 @@ function set_git_bridge_image_name() {
   if [[ -n ${GIT_BRIDGE_IMAGE:-} ]]; then
     image_name="$GIT_BRIDGE_IMAGE"
   else
-    image_name="quay.io/sharelatex/git-bridge"
+    image_name="ghcr.io/ayaka-notes/overleaf-pro/git-bridge"
   fi
 
   # since we're reusing the GIT_BRIDGE_IMAGE environment variable, we check here if the version
