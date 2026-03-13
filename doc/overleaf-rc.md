@@ -92,7 +92,7 @@ User documentation: https://www.overleaf.com/learn/how-to/Git_integration
 
 Docker image as used by the git-bridge container (Server Pro only). This is just the Docker image name, the Docker image tag is sourced from `config/version`.
 
-- Default: `quay.io/sharelatex/git-bridge`
+- Default: `ghcr.io/ayaka-notes/overleaf-pro/git-bridge`
 
 ### `GIT_BRIDGE_DATA_PATH`
 

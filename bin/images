@@ -35,7 +35,7 @@ function __main__() {
     echo "---- TexLive Images ----"
     docker images ghcr.io/ayaka-notes/texlive-full
     echo "---- Git Bridge Images ----"
-    docker images quay.io/sharelatex/git-bridge
+    docker images ghcr.io/ayaka-notes/overleaf-pro/git-bridge
 }
 
 __main__ "$@"
