@@ -1,6 +1,11 @@
 # Changelog
 
-## 2026-10-23
+## 2026-11-18
+### Added
+- Updated default [`version`](https://github.com/overleaf/toolkit/blob/master/lib/config-seed/version) to `6.3.4`.
+- Bump `nginx` image to `nginx:1.31-alpine`.
+
+## 2026-11-13
 ### Added
 - Updated default [`version`](https://github.com/overleaf/toolkit/blob/master/lib/config-seed/version) to `6.3.3`.
 
