@@ -5,3 +5,4 @@ services:
     environment:
       OVERLEAF_MONGO_URL: "${MONGO_URL}"
       OVERLEAF_REDIS_HOST: "${REDIS_HOST}"
+      OVERLEAF_REDIS_PORT: "${REDIS_PORT}"
